@@ -7,8 +7,8 @@ export const Signal = () => {
 	let [color, setColor] = useState(false);
 
 	return color ? (
-		<Button className="border-danger" onClick={() => setColor(false)} /> //hay que ponerle una duracion
+		<Button className="btn-circle" onClick={() => setColor(false)} /> //hay que ponerle una duracion
 	) : (
-		<Button className="border-success" onClick={() => setColor(true)} />
+		<Button className="btn-circle" onClick={() => setColor(true)} />
 	);
 };
