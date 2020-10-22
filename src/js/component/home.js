@@ -6,12 +6,12 @@ import rigoImage from "../../img/rigo-baby.jpg";
 //create your first component
 export function Home() {
 	return (
-		<div className="d-flex flex-column">
-			<Signal />
+		<card className="d-flex flex-column">
+			<Signal colorlight="danger" />
 
-			<Signal />
+			<Signal colorlight="warning" />
 
-			<Signal />
-		</div>
+			<Signal colorlight="success" />
+		</card>
 	);
 }
